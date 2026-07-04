@@ -1,0 +1,310 @@
+/* ===========================
+   GLOBAL STYLE
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+/* ===========================
+      NAVIGATION BAR
+=========================== */
+
+header{
+    width:100%;
+    background:#ffffff;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+nav{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#2563eb;
+}
+
+/* ===========================
+      RESUME SECTION
+=========================== */
+
+.resume{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:130px auto 50px;
+
+}
+
+.resume h1{
+
+    text-align:center;
+
+    font-size:48px;
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    font-size:20px;
+
+    margin-bottom:50px;
+
+}
+
+/* ===========================
+        CARD DESIGN
+=========================== */
+
+.card{
+
+    background:#ffffff;
+
+    padding:35px;
+
+    margin-bottom:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.card h2{
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+    border-left:6px solid #2563eb;
+
+    padding-left:15px;
+
+}
+
+.card h3{
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+    color:#222;
+
+}
+
+.card p{
+
+    line-height:30px;
+
+    color:#555;
+
+    text-align:justify;
+
+}
+
+.card ul{
+
+    margin-left:25px;
+
+    margin-top:10px;
+
+}
+
+.card ul li{
+
+    margin-bottom:10px;
+
+}
+
+/* ===========================
+     DOWNLOAD BUTTON
+=========================== */
+
+.download{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+.download a{
+
+    display:inline-block;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:15px 40px;
+
+    text-decoration:none;
+
+    border-radius:50px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.download a:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* ===========================
+      RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+nav{
+
+    flex-direction:column;
+
+}
+
+nav ul{
+
+    margin-top:20px;
+
+}
+
+nav ul li{
+
+    margin:0 10px;
+
+}
+
+.resume h1{
+
+    font-size:35px;
+
+}
+
+.card{
+
+    padding:25px;
+
+}
+
+}
+/* ===============================
+   Certificate Button
+================================= */
+
+.certificate-btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:12px 28px;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+.certificate-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-3px);
+
+}
+
+hr{
+
+    margin:35px 0;
+
+    border:none;
+
+    border-top:1px solid #d9d9d9;
+
+}
+.certificate-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:#ffffff;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.certificate-btn:hover{
+    background:#1d4ed8;
+}
